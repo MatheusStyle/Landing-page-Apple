@@ -1,7 +1,190 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat' ,sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.Container-maior {
+    background-image: url(./assets/288957-fernanda-entregar-ate-dia\ 2.png);
+    height: 100vh;
+}
+
+nav {
+    padding: 25px 0 0 35px;
+}
+
+.titulo-nav {
+    font-size: 24px;
+    color: #ffffff;
+    display: inline;
+}
+.titulo-nav span{
+    color: #855325;
+}
+
+.nav-link {
+    font-size: 14px;
+    display: inline;
+    color: #ffffff;
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #855325;
+    transition: 0.7s ease-in-out;
+}
+
+h1 {
+    font-size: 58px;
+    color: #ffffff;
+    position: relative;
+    top: 280px;
+    margin-left: 65px;
+
+}
+
+from {
+    background-color: #ffffff;
+    border-radius: 10px;
+    float: right;
+    padding: 30px;
+    width: 355px;
+    margin-right: 58px;
+
+
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 40px;
+}
+
+input {
+    display: block;
+    height: 32px;
+    width: 291px;
+    background: #F9F9F9;
+    border-radius: 5px;
+    border: none;
+    color: #737373;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #252B42;
+    margin-top: 20px;
+}
+
+
+textarea {
+    display: block;
+    border-radius: 5px;
+
+    background: #F9F9F9;
+    height: 98px;
+    width: 291px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+
+button {
+    height: 52px;
+    width: 291px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #40BB15;
+    border: none;
+    border-radius: 5px
+}
+
+button:hover {
+    background: #855325;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+
+.titulo-meio {
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+    text-align: center;
+    margin: 71px 0 89px 0;
+}
+
+.container-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+
+
+}
+
+.card {
+
+    width: 328px;
+    border-radius: 10px;
+    border: 1px solid #A9D6FF;
+    background-color: #ffffff;
+    margin-left: 33px;
+
+}
+
+.titulo-card {
+
+    background:  #737373;;
+
+    
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    width: 326px;
+}
+
+
+ul {
+
+    padding: 20px;
+
+}
+
+li {
+    margin: 0 0 5px 10px;
+}
+
+.container-inferior {
+    background:  #737373;;
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.titulo-inferior {
+    position: relative;
+    bottom: 50%;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    padding: 61px 0 19px 0;
+}
+
+.paragrafo-inferior {
+
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 25px;
+    margin: 0px 137px 0px 136px;
+
+
+}
