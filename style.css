@@ -7,6 +7,7 @@
 
 .Container-maior {
     background-image: url(./assets/288957-fernanda-entregar-ate-dia\ 2.png);
+    background-size: cover;
     height: 100vh;
 }
 
@@ -45,15 +46,23 @@ h1 {
 
 }
 
-from {
+form {
+   /* visibility: hidden;*/
+    opacity: 0;
+    transition: opacity 2s linear;
     background-color: #ffffff;
     border-radius: 10px;
     float: right;
     padding: 30px;
     width: 355px;
+    height: 80%;
     margin-right: 58px;
 
 
+}
+.visible-formulario{
+   /* visibility: visible;*/
+    opacity: 1;
 }
 
 .titulo-formulario {
@@ -91,7 +100,7 @@ textarea {
     background: #F9F9F9;
     height: 98px;
     width: 291px;
-    margin-bottom: 50px;
+    margin-bottom: 17px;
     padding-left: 10px;
 }
 
@@ -111,9 +120,10 @@ button:hover {
     background: #855325;
     cursor: pointer;
     transition: 0.7s ease-in-out;
+    
 }
 
-.titulo-meio {
+#titulo-meio {
     font-size: 40px;
     line-height: 57px;
     color: #252B42;
@@ -169,7 +179,7 @@ li {
 
 }
 
-.titulo-inferior {
+#titulo-inferior {
     position: relative;
     bottom: 50%;
     color: #FFFFFF;

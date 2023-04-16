@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,43 +20,49 @@
 
         <nav>
             <h2 class="titulo-nav"> <span>D&C</span> Advogados</h2>
-            <a href="#" class="nav-link">Quem somos</a>
-            <a href="#" class="nav-link">Serviços</a>
-            <a href="#" class="nav-link">Contato</a>
+            <a href="#titulo-inferior" class="nav-link">Quem somos</a>
+            <a href="#titulo-meio" class="nav-link">Serviços</a>
+            <a href="#" class="nav-link" onclick="mostrarFormulario()">Contato</a>
 
         </nav>
 
         <h1>D&C Advogados</h1>
 
-        <from>
+        <form id="formulario-contact" action="https://formsubmit.co/matheusvazdev@gmail.com" method="POST">
             <h3 class="titulo-formulario">Entre em contato</h3>
-
 
             <label>
                 Nome
 
-                <input placeholder="Digite seu Nome">
+                <input type="text" nome="nome" placeholder="Digite seu Nome" required>
             </label>
 
             <label>
                E-mail
 
-                <input placeholder="Digite seu E-mail">
+                <input type="email" nome="email" placeholder="Digite seu E-mail">
             </label>
 
+             <label>
+               WhatsApp
+
+                <input type="number" nome="tel" placeholder="Digite seu Telefone">
+            </label>
 
             <label>
                 Fale conosco
-                <textarea placeholder="Qual sua duvida"></textarea>
+                <textarea name="info" placeholder="Qual sua duvida"></textarea>
             </label>
-            <button>Enviar</button>
 
-        </from>
+            <button type="submit">Enviar</button>
+
+        </form>
+
     </main>
 
     <section>
 
-        <h2 class="titulo-meio">Nossos srviços</h2>
+        <h2 id="titulo-meio">Nossos serviços</h2>
 
         <div class="container-central">
 
@@ -104,7 +111,7 @@
 
     <div class="container-inferior">
 
-        <div class="titulo-inferior">
+        <div id="titulo-inferior">
         <h1 >Sobre nós</h1>
       </div>
 
@@ -141,6 +148,7 @@
     </div>
 
 
+    <script src="./script.js"></script>
 
 </body>
 
